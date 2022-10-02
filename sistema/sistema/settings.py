@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'heroku_b3cb52adb550ec7',
-        'NAME': 'heroku_b3cb52adb550ec7',
-        'USER': 'b067b900c1498b',
-        'PASSWORD': 'ee3df1c3',
-        'HOST': 'us-cdbr-east-06.cleardb.net',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bj8dptwdkekznzyt',
+        'USER': 'djapvlxovmb9lyiv',
+        'PASSWORD': 'ix7hb3wwn447oa0w',
+        'HOST': 'iu51mf0q32fkhfpl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '3306'
 
     }
