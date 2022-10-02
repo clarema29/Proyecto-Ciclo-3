@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'libros',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'ENGINE': 'heroku_b3cb52adb550ec7',
+        'NAME': 'heroku_b3cb52adb550ec7',
+        'USER': 'b067b900c1498b',
+        'PASSWORD': 'ee3df1c3',
+        'HOST': 'us-cdbr-east-06.cleardb.net',
         'PORT': '3306'
 
     }
