@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bj8dptwdkekznzyt',
-        'USER': 'djapvlxovmb9lyiv',
-        'PASSWORD': 'ix7hb3wwn447oa0w',
-        'HOST': 'iu51mf0q32fkhfpl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        'NAME': 'libros',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
         'PORT': '3306'
 
     }
@@ -123,6 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGIN_URL = '/singin'
 STATICFILES_DIR = (os.path.join(BASE_DIR, '/sistema/static'),)
 
 # Default primary key field type
