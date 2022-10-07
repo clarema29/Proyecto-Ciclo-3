@@ -26,7 +26,7 @@ class Mouses(models.Model):
     )
 
     producto = models.TextField(max_length=10, verbose_name='Productoo', null=True)
-    img = models.TextField(max_length=10, verbose_name='link de la image', null=True)
+    img = models.TextField(max_length=100, verbose_name='link de la image', null=True)
     precio = models.IntegerField(verbose_name='Precio', null=True)
 
     def __str__(self):
