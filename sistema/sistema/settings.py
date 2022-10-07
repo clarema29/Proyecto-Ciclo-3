@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'libros',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'jw6qxigjq4c8gul0',
+        'USER': 'al5qugtwcmutkpyy',
+        'PASSWORD': 'gq5bzyy6fdn67yny',
+        'HOST': 'iu51mf0q32fkhfpl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
         'PORT': '3306'
 
     }
